@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
+ruby '3.0.6'
 
 #git_source(:github) do |repo_name|
 #  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -8,7 +8,7 @@ ruby '2.7.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.2.8'
 gem 'puma', '~> 5.6'
 gem 'oj'
 gem 'dotenv-rails'

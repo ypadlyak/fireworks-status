@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '3.1.6'
 
+# Ruby 3.1+ requires explicit gem declarations for stdlib libraries
+gem 'logger'
+
 #git_source(:github) do |repo_name|
 #  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
 #  "https://github.com/#{repo_name}.git"

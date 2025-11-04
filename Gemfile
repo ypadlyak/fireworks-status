@@ -8,7 +8,7 @@ ruby '3.1.6'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.8'
+gem 'rails', '~> 6.1.0'
 gem 'puma', '~> 5.6'
 gem 'oj'
 gem 'dotenv-rails', '~> 2.7'

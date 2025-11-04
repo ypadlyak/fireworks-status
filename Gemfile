@@ -11,7 +11,7 @@ ruby '3.1.6'
 gem 'rails', '~> 6.1.0'
 gem 'puma', '~> 5.6'
 gem 'oj'
-gem 'dotenv-rails', '~> 2.7'
+gem 'dotenv-rails'
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

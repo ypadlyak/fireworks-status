@@ -198,7 +198,6 @@ DEPENDENCIES
   capistrano-bundler
   dotenv-rails (~> 2.7)
   listen (>= 3.0.5, < 3.2)
-  logger
   oj
   pg
   puma (~> 5.6)

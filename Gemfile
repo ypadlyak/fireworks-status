@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
+ruby '3.1.6'
 
 #git_source(:github) do |repo_name|
 #  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -8,7 +8,7 @@ ruby '2.7.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 6.1.0'
 gem 'puma', '~> 5.6'
 gem 'oj'
 gem 'dotenv-rails'
@@ -52,7 +52,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.4'
 end
 
 group :production do

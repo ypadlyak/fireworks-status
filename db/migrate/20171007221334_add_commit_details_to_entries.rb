@@ -1,4 +1,4 @@
-class AddCommitDetailsToEntries < ActiveRecord::Migration[5.1]
+class AddCommitDetailsToEntries < ActiveRecord::Migration[6.1]
   def change
     add_column :entries, :commit, :string
     add_column :entries, :commit_url, :string
